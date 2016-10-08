@@ -6,32 +6,32 @@
 // console.log("a2", a);
 
 //let
-let b=8;
-console.log('b', b);
-b=12;
-console.log('b2', b);
+// let b=8;
+// console.log('b', b);
+// b=12;
+// console.log('b2', b);
 
-function varTest(){
-  var x=1;
-  if(true){
-    var x=2;
-    console.log(x);
-  }
-  console.log(x);
-}
+// function varTest(){
+//   var x=1;
+//   if(true){
+//     var x=2;
+//     console.log(x);
+//   }
+//   console.log(x);
+// }
 
-varTest();
+// varTest();
 
-function letTest(){
-  let y=1;
-  if(true){
-    let y=12;
-    console.log('inside if', y);
-  }
-  console.log('outside if', y);
-}
+// function letTest(){
+//   let y=1;
+//   if(true){
+//     let y=12;
+//     console.log('inside if', y);
+//   }
+//   console.log('outside if', y);
+// }
 
-letTest();
+// letTest();
 
 //arrow functions
 // var sum = function(){
@@ -85,14 +85,14 @@ letTest();
 // }
 // console.log("my new object", myNewObject);
 //method properties
-var e5Obj = {
-  foo:function(){console.log('foo')},
-  bar:function(){console.log('bar')}
-}
-console.log('e5Obj', e5Obj);
+// var e5Obj = {
+//   foo:function(){console.log('foo')},
+//   bar:function(){console.log('bar')}
+// }
+// console.log('e5Obj', e5Obj);
 
-var es6Obj = {
-  foo() {console.log('foo')},
-  bar() {console.log('bar')}
-}
-console.log('es6Obj', es6Obj);
+// var es6Obj = {
+//   foo() {console.log('foo')},
+//   bar() {console.log('bar')}
+// }
+// console.log('es6Obj', es6Obj);

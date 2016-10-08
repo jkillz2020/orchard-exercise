@@ -1,0 +1,23 @@
+{
+  "name": "orchard",
+  "description": "growing trees",
+  "main": "index.js",
+  "authors": [
+    "Josh Kilgore <kilgore.josh@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "trees"
+  ],
+  "homepage": "https://github.com/jkillz2020/orchard-exercise",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
